@@ -1,0 +1,36 @@
+# site settings
+title: Ela Consultoria
+subtitle: Consultoriae Treinamentos
+email: contato@elaconsultoria.com.br
+description: Formada por uma equipe interdisciplinar, a Ela Consultoria<br/> Tem a missão de multiplicar conhecimentos aos profissionais ligados diretos ou indiretamente envolvidos com a correta aplicação das legislações trabalhistas e previdenciárias nas rotinas pertinentes ao departamento pessoal.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: Centro, Rio de Janeiro
+city: Rio de Janeiro - RJ
+state: RJ
+zip_code: 20090-000
+country: Brasil
+phone: (21) 97292.6848
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url: https://www.facebook.com/profile.php?id=100040521603107
+github_url:
+gitlab_url:
+googleplus_url:
+instagram_url: https://www.instagram.com/elaconsultoria29072019
+linkedin_url:
+pinterest_url:
+slack_url:
+twitter_url:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
