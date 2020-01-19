@@ -1,28 +1,27 @@
 # Site settings
-title:
-email:
+title: ELA Consultoria
+subtitle: Consultoria e Treinamentos
+email: contato@elaconsultoria.com.br
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Formada por uma equipe interdisciplinar, a Ela Consultoria Tem a missão de multiplicar conhecimentos aos profissionais ligados diretos ou indiretamente envolvidos com a correta aplicação das legislações trabalhistas e previdenciárias nas rotinas pertinentes ao departamento pessoal.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
 owner:
 email:
-facebook_username:
-twitter_username:
-github_username:
-address:
-  - line:
-  - line:
+facebook_username: profile.php?id=100040521603107
+#twitter_username:
+#github_username:
+address: Brasil
+  - line: Rio de Janeiro - RJ
+  - line: Centro
   # Feel free to add more lines here 
-telephone:
-copyright:
+telephone: (21) 97292.6848
+copyright: ELA Consultoria
 
 # API settings
-google_api_key:
+# google_api_key:
 
 # Build settings
 markdown: kramdown
