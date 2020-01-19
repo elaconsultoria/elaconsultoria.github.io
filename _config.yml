@@ -8,8 +8,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner:
-email:
+owner: Eliane Araujo
+email: contato@elaconsultoria.com.br
 medium_username:
 facebook_username: profile.php?id=100040521603107
 instagram_username: elaconsultoria29072019
