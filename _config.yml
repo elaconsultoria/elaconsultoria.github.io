@@ -1,26 +1,22 @@
-# Site settings
 title: ELA Consultoria
-subtitle: Consultoria e Treinamentos
 email: contato@elaconsultoria.com.br
-description: > # this means to ignore newlines until "baseurl:"
-  Formada por uma equipe interdisciplinar, a Ela Consultoria Tem a missão de multiplicar conhecimentos aos profissionais ligados diretos ou indiretamente envolvidos com a correta aplicação das legislações trabalhistas e previdenciárias nas rotinas pertinentes ao departamento pessoal.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+description: > Formada por uma equipe interdisciplinar, a Ela Consultoria Tem a missão de multiplicar conhecimentos aos profissionais ligados diretos ou indiretamente envolvidos com a correta aplicação das legislações trabalhistas e previdenciárias nas rotinas pertinentes ao departamento pessoal.
+baseurl: ""
+url: ""
 
-# User setting
-owner: Eliane Araujo
-email: contato@elaconsultoria.com.br
-facebook_username: profile.php?id=100040521603107
-instagram_username: elaconsultoria29072019
-twitter_username: elaconsultoria
-address:
-  - line: Rio de Janeiro - RJ
-  # Feel free to add more lines here 
-telephone: (21) 972926848
-copyright: ELA Consultoria
+company_name: ELA Consultoria
+address_line: Rio de Janeiro - RJ
+telephone_number: (21) 972926848
+fax_number: (21) 972926848
+company_email: contato@elaconsultoria.com.br
+google_map: https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3618.727010735933!2d91.837871!3d24.907291700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1404919738144
 
-# API settings
-# google_api_key:
+facebook_link: http://www.facebook.com/elaconsultoria.com.br
+instagram_link: http://www.facebook.com/elaconsultoria29072019
+medium_link: http://medium.com/@elaconsultoria
+twitter_link: http://www.twitter.com/elaconsultoria
+linkedin_link: http://www.linkedin.com/elaconsultoria
 
-# Build settings
 markdown: kramdown
+plugins:
+  - jekyll-feed

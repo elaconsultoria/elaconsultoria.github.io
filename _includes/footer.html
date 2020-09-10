@@ -1,36 +1,63 @@
+<!-- Footer -->
 <footer>
-<section id="contact" class="contact">
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h4><strong>{{ site.owner }}</strong>
-        </h4>
-        <p>
-          {% for address in site.address %}
-          {{ address.line }}<br>
-          {% endfor %}
+      <div class="col-md-4">
+        <h3><i class="fa fa-map-marker"></i> Contact:</h3>
+        <p class="footer-contact">
+          {{ site.company_name }} <br>
+          Phone: {{ site.telephone_number }} <br>
+          Fax: {{ site.fax_number }} <br>
+          Email: {{ site.company_email }}<br>
         </p>
-        <ul class="list-unstyled">
-          <li><i class="fa fa-phone fa-fw"></i> {{ site.telephone }}</li>
-          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-          </li>
-        </ul>
-        <br>
-        <ul class="list-inline">
-          <li>
-            <a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-          </li>
-          <li>
-            <a href="https://instagram.com/{{ site.instagram_username }}"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-          </li>
-        </ul>
-        <hr class="small">
-        <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
+      </div>
+      <div class="col-md-4">
+        <h3><i class="fa fa-external-link"></i> Links</h3>
+        <p><a href="/about"> Sobre (quem somos)</a></p>
+        <p><a href="/contact"> Contato (sinta-se à vontade para entrar em contato)</a></p>
+        <p><a href="/blog"> Blog (escreva para nós)</a></p>
+        <p><a href="/team"> Equipe (Conheça a Equipe)</a></p>
+      </div>
+      <div class="col-md-4">
+        <h3><i class="fa fa-heart"></i> Nossas redes sociais</h3>
+        <div id="social-icons">
+
+          {% if site.facebook_link %}
+            <a href="{{ site.facebook_link }}" class="btn-group facebook">
+              <i class="fa fa-facebook"></i>
+            </a>
+          {% endif %}
+
+          {% if site.instagram_link %}
+            <a href="{{ site.instagram_link }}" class="btn-group instagram">
+              <i class="fa fa-instagram"></i>
+            </a>
+          {% endif %}
+
+          {% if site.twitter_link %}
+            <a href="{{ site.twitter_link }}" class="btn-group twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+          {% endif %}
+
+          {% if site.medium_link %}
+            <a href="{{ site.medium_link }}" class="btn-group medium">
+              <i class="fa fa-medium"></i>
+            </a>
+          {% endif %}
+
+          {% if site.linkedin_link %}
+            <a href="{{ site.linkedin_link }}" class="btn-group linkedin">
+              <i class="fa fa-linkedin-square"></i>
+            </a>
+          {% endif %}
+
+        </div>
       </div>
     </div>
   </div>
-</section>
+
+  <div class="copyright text center">
+    <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="https://elaconsultoria.github.io/">ELA Consultoria</a>.
+  </div>
 </footer>
