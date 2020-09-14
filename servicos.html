@@ -1,49 +1,49 @@
 ---
 layout: default_style
-permalink: /servicos
-published: true
+permalink: /about
 ---
+
 <!-- Main Container -->
+
+<div class="row container-kamn">
+  <img src="assets/img/slider/servicos.jpg" class="blog-post" alt="Feature-img" align="right" width="50%">
+</div>
+
 <div id="banners"></div>
 <div class="container">
-  {% for post in site.servicos %}
-  <div class="blog-post">
-      <h1 class="blog-title">
-        <i class="fa fa-file-text"></i>
-        {{ post.title }}
-      </h1>
+  <div class="row">
+    <div class="side-left col-sm-4 col-md-4">
+      <h3 class="lead"> Nossos Serviços: </h3><hr>
+      <a href="#anchor1">CONSULTORIA</a><br>
+      <a href="#anchor2">AUDITORIA</a><br>
+      <a href="#anchor3">ASSESSORIA</a><br>
       <br>
-      <img src="assets/img/slider/{{ post.picture }}" alt="Feature-img" align="right" width="100%" class="blog-image">
-      <br>
-      <p>{{ post.description }}</p>
-      <span class="badge">{{ post.date | date: '%B %d, %Y' }}</span>
-      <div class="pull-right">
-        {% if post.label_default %}
-          <span class="label label-default">{{ post.label_default }}</span>
-        {% endif %}
-
-        {% if post.label_primary %}
-          <span class="label label-primary">{{ post.label_primary }}</span>
-        {% endif %}
-
-        {% if post.label_success %}
-          <span class="label label-success">{{ post.label_success }}</span>
-        {% endif %}
-
-        {% if post.label_info %}
-          <span class="label label-info">{{ post.label_info }}</span>
-        {% endif %}
-
-        {% if post.label_warning %}
-          <span class="label label-warning">{{ post.label_warning }}</span>
-        {% endif %}
-
-        {% if post.label_danger %}
-          <span class="label label-danger">{{ post.label_danger }}</span>
-        {% endif %}
-      </div>
     </div>
-    <hr>
-  {% endfor %}
+    <div class="col-sm-8 col-md-8">
+        <h3 class="lead"id="anchor1">CONSULTORIA</h3><hr>
+  <img src="assets/img/slider/consultoria.jpg" class="blog-post" alt="Feature-img" align="right" width="50%">
+        <p>
+• Auxiliar a empresa na tomada de algumas decisões;
+• Identificar pontos fortes e fracos;
+• Propor soluções às falhas;
+• Realizar palestras de implantação.
+        </p>
+
+        <h3 class="lead"id="anchor2">AUDITORIA</h3>
+  <img src="assets/img/slider/auditoria.jpg" class="blog-post" alt="Feature-img" align="right" width="50%">
+        <p>
+
+Com objetivo em averiguar se as atividades pré-estabelecidas estão sendo realizadas em conformidade e se os objetivos traçados pela empresa estão sendo alcançados. Acompanhar o desempenho das operações e identificar possíveis falhas no setor de Departamento Pessoal. Sugerindo ao setor e/ou a empresa a correção das falhas detectadas. <br>
+        </p>
+
+        <h3 class="lead"id="anchor3">ASSESSORIA</h3>
+  <img src="assets/img/slider/assessoria.jpg" class="blog-post" alt="Feature-img" align="right" width="50%">
+        <br><br>
+        <p>
+Prestar assessoria a empresa/ e ou ao DP com o objetivo de validar de forma correta a atender os dispositivos das legislações pertinentes as rotinas de departamento pessoal, e validar os eventos a serem transmitidos ao eSocial.
+        </p>
+    </div>
+  </div>
 </div>
+
 <!--End Main Container -->
